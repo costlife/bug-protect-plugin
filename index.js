@@ -11,6 +11,8 @@ class BugProtectPlugin {
 }
 
 function echo(compilation) {
+  console.log('')
+  console.log('')
   console.log('                    _ooOoo_')
   console.log('                   o8888888o')
   console.log('                   88" . "88')
@@ -31,7 +33,7 @@ function echo(compilation) {
   console.log('                    `=---=`')
   console.log('')
   console.log(' .............................................')
-  console.log(' .............佛祖保佑....永无BUG.............')
+  console.log(' .............佛祖保佑....永无BUG...............')
   console.log('')
 }
 module.exports = BugProtectPlugin
